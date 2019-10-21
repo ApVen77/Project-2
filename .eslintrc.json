@@ -2,11 +2,12 @@
     "env": {
         "browser": true,
         "commonjs": true,
-        "node": true
+        "node": true,
+        "eslint.provideLintTask": true //lint the entire workspace
     },
-    "extends": "prettier",
-    "plugins": [
-        "prettier"
+    "extends": "eslint",
+    "plugins": [  
+        "esllint"
          "Auth0 + Passport.js"
         "Node" " NodeEmailer"
         "Express" "Express Handlebars"
@@ -40,6 +41,6 @@
             "error",
             "always"
         ],
-        "prettier/prettier": "error"
+        "eslint/eslint": "error"
     }
 }
