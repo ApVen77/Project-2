@@ -21,7 +21,7 @@ router.get("/dashboard", isLoggedIn, authController.dashboard);
 
 router.post("/signup", passport.authenticate("local-signup", {
     successRedirect: "/dashboard",
-    failureRedirect: "/signup",
+    failureRedirect: "/sign-up",
     failureFlash: true
 }));
 
