@@ -1,3 +1,4 @@
+var db = require("../models");
 // Routes
 // =============================================================
 module.exports = function(app) {
@@ -19,12 +20,13 @@ module.exports = function(app) {
   });
 
    // Add a user
-   app.post("/api/sign-up", function(req, res) {
+   app.post("/api/signup", function(req, res) {
     console.log("user data:");
     console.log(req.body);
     user.create({
       email: req.body.email,
-      password: req.body.passowrd
+      password: req.body.passowrd,
+      name: req.body.name
     }).then(function(results) {
       res.json(results);
     });
