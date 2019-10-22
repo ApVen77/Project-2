@@ -29,6 +29,7 @@ body {
 .footer {
     width: 100%;
     background-color: #ccc;
+    margin: 25px;
 }
 
 .navbar-center {
@@ -37,4 +38,10 @@ body {
     left: 50%;
     transform: translatex(-50%);
     line-height: 45px;
+}
+h1 {
+    color: whitesmoke;
+}
+p {
+    color: black;
 }

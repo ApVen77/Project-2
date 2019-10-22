@@ -4,8 +4,14 @@ module.exports = function(app) {
 
     app.get("/", function(req, res) {
     
-          res.render("profile", {
+          res.render("file", {
             msg: "Welcome!",
           });
         });
 }
+// app.get("/signup", function(req, res) {
+    
+//   res.render("signup", {
+//     msg: "Welcome!",
+//   });
+// });
