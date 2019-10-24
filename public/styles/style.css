@@ -15,6 +15,7 @@ body {
 .container {
   border: solid 2px #ccc;
   border-top: none;
+  padding: 10px;
 }
 .container .carousel {
   width: auto;
@@ -23,13 +24,8 @@ body {
   margin-top: none;
 }
 .container .card {
-  margin-top: 100px;
   border: solid 10px #9797a0;
   border: linear-gradient(360deg, #9797a0 0%, #f1f6f6 100%);
-}
-
-.btn {
-  padding-left: 60px;
 }
 
 .form {

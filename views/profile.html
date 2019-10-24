@@ -5,36 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<<<<<<< HEAD
     <link type="stylesheet" href="styles/style.sass">
     <title>Barter Yo S#*t!</title>
+=======
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Project Two</title>
+    <script src="js/auth.js"></script>
+>>>>>>> 6dc2c7980aa955523690d11a15bd665717e31ae5
 </head>
 
-
 <body>
-
-
     <header class="persistent">
         <nav>
-
-
             <nav class="navbar navbar-expand-lg navbar-light justify-content-end">
                 <a class="navbar-brand" href="#"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <nav>
@@ -55,19 +47,19 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="/barter">Barter</a>
                             </li>
-
+                        </ul>
+                    </div>
                 </nav>
+            </nav>
+        </nav>
     </header>
 
     <div class="container">
-
-
         <div class="card" style="width: 18rem;">
             <img src="images/image.webp" class="card-img-top" alt="dummy-img">
             <div class="card-body">
-                <h5 class="card-title">Doug Jones</h5>
-                <p class="card-text">Poor millennial looking to barter and not buy.
-                    Checkout my haves to see if you want to barter. </p>
+                <h5 class="card-title" id="userName"></h5>
+                <p class="card-text">Poor millennial looking to barter and not buy. Checkout my haves to see if you want to barter. </p>
             </div>
 
             <div class="card-body">
@@ -104,9 +96,9 @@
                 <div id="havewant">
                     <p>Item Type</p>
                     <label for="have"> Have </label>
-                    <input id = "have" type="radio" name="havewant" value="have">
+                    <input id="have" type="radio" name="havewant" value="have">
                     <label for="want">Want</label>
-                    <input id = "want" type="radio" name="havewant" value="want">
+                    <input id="want" type="radio" name="havewant" value="want">
                 </div>
                 <div class="form-group">
                     <label for="itemDescription">Item Description</label>
@@ -127,31 +119,32 @@
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <nav>
                 <div class="navbar">
                     <ul class="navbar-nav mr-auto justify-content-center">
-                        <li class="nav-item active">
-                        <li class="nav-item">
-                            <a class="nav-link" href="/">Arielle Collins</a>
-                        </li>
-                        <a class="nav-link" href="/signup">April Long</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/login">Tracy Pineda</a>
-                        </li>
+                        <ul class="navbar-nav mr-auto justify-content-center">
+                            <li class="nav-item">
+                                <a class="nav-link" href="http://www.github.com/">Arielle Collins</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="http://www.github.com/">April Long</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="http://www.github.com/">Tracy Pineda</a>
+                            </li>
+                        </ul>
                     </ul>
                 </div>
             </nav>
 
     </footer>
-    
+
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <script src="./js/profile.js"></script>
+    <script src="./js/dashboard.js"></script>
 </body>
 
 </html>
