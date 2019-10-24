@@ -17,7 +17,7 @@ $("#signInButton").on("click", function(event) {
   };
   
   console.log("newUser: " , newUser)
-  console.log("newUser: " + JSON.stringify(newUser)
+  console.log("newUser: " + JSON.stringify(newUser))
 
   // Send an AJAX POST-request with jQuery
   $.post ("/api/signup", newUser)
