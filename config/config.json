@@ -17,7 +17,7 @@
         "operatorsAliases": false
     },
     "production": {
-        "use_env_variable":"JAWS_DB_URL",
+        "use_env-variable":"JAWS_DB-URL",
         "dialect": "mysql"
     },
     "jwt_privatekey": "*privatekey*"
