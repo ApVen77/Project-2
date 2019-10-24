@@ -1,4 +1,4 @@
-module.exports = {
+// module.exports = {
     /*
     signup: function(req, res) {
         // if user is logged in, redirect to /dashboard
