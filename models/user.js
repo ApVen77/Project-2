@@ -20,3 +20,6 @@ module.exports = function(sequelize, DataTypes) {
     };
     return User;
 }
+
+
+// blah
