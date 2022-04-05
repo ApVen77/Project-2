@@ -5,7 +5,7 @@ In this app it will use a Node and Express server that is backed my sequelized a
 
 * Developers: Arielle Collins, Tracy Pineda, and April Long
 * Institute: University of Denver
-* Date Published: October 23, 2019
+* Date Published: October 23, 20
 
 
 
